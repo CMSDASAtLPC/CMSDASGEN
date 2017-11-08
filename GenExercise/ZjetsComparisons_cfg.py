@@ -62,7 +62,7 @@ for l in options.inputFiles:
 
 print options.product
 
-#process.load("CMSDASGEN.GenExercise.WjetsPy6_cff")
+#process.load("ShortExerciseGenerator.GenExercise.WjetsPy6_cff")
 
 # from Configuration.Generator.PythiaUESettings_cfi import *
 
@@ -88,7 +88,7 @@ print options.product
 
 #process.load("RecoJets.Configuration.GenJetParticles_cff")
 #process.load("RecoJets.JetProducers.ak5GenJets_cfi")
-process.load("CMSDASGEN.GenExercise.ZjetsAnalysis_cfi")
+process.load("ShortExerciseGenerator.GenExercise.ZjetsAnalysis_cfi")
 process.genZBoson.src = cms.InputTag(options.product)
 process.genLeptons.src = cms.InputTag(options.product)
 

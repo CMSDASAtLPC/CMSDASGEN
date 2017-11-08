@@ -3,7 +3,7 @@
 // Package:    GenExercise
 // Class:      GenExercise
 // 
-/**\class GenExercise GenExercise.cc CMSDASGEN/GenExercise/src/GenExercise.cc
+/**\class GenExercise GenExercise.cc ShortExerciseGenerator/GenExercise/src/GenExercise.cc
 
  Description: [one line class summary]
 
